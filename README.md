@@ -23,7 +23,7 @@ Computes the moving average of a list of values.
 
 #### Returns
 
--   list(float):  List of the same size as `v` containing the mean values. Non-existing elements at the edges are substituted with `NaN`.
+-   list(float):  List of the same size as `v` containing the mean values. Non-existent elements at the edges are substituted with `NaN`.
 
 ### `LeeMykland(S, sampling, significance_level=0.01)`
 
@@ -55,3 +55,13 @@ Implements the Lee-Mykland jump detection test.
 
     -   Ensure your price data is in a list or array format.
     -   Determine the sampling frequency of your data (in minutes).
+
+## References
+ Lee, Suzanne S., and Per A. Mykland. 
+"Jumps in financial markets: A new nonparametric test and jump dynamics."
+The Review of Financial Studies 21.6 (2007): 2535-2563.
+
+Davis, Richard A.
+"Maximum likelihood estimation for stochastic processes."
+DJE Working Paper No. 2016-008. (https://sites.duke.edu/djepapers/files/2016/11/Davis.pdf)
+
